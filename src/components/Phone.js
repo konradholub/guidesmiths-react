@@ -8,6 +8,7 @@ const PhoneWrapper = styled.div`
 
 const Image = styled.img`
     height: 100%;
+    cursor: pointer;
 `
 
 const Phone = (props) => {
