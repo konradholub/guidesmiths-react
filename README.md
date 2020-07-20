@@ -2,4 +2,7 @@
 ```docker build -t konrad/reactapp .```
 
 
-```docker run --name reactapp -p 4680:8080 -d konrad/reactapp```
+```docker run -it --name reactapp -p 4680:3000 -d konrad/reactapp```
+
+
+Open http://localhost:4680/ in the web browser
